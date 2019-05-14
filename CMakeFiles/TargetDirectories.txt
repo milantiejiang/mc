@@ -1,0 +1,4 @@
+/Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeFiles/glad.dir
+/Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeFiles/MCOneWeek.dir
+/Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeFiles/ALL_BUILD.dir
+/Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeFiles/ZERO_CHECK.dir
