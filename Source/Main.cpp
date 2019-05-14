@@ -25,7 +25,6 @@ int main()
     Config config;
     loadConfig(config);
     displayInfo();
-
     std::cin.ignore();
     std::cout << "Loading game...\n";
 
