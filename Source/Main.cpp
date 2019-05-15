@@ -2,8 +2,10 @@
 
 #include <fstream>
 #include <iostream>
+#include <mach-o/dyld.h>
 
 #include "Config.h"
+#include "Util/FileUtil.h"
 
 #ifdef __WIN32
     extern "C"
@@ -20,8 +22,7 @@ namespace
     void displayInfo();
 }
 
-int main()
-{
+int main(){
     Config config;
     loadConfig(config);
     displayInfo();
@@ -32,11 +33,11 @@ int main()
     app.runLoop();
 }
 
-namespace
-{
-    void loadConfig(Config& config)
-    {
-        std::ifstream configFile("config.txt");
+namespace{
+    void loadConfig(Config& config){
+        std::string s=getExeDir()+"/";
+        std::cout << s << "\n";
+        std::ifstream configFile(s+"config.txt");
         std::string key;
 
         if (configFile.is_open())
@@ -77,8 +78,9 @@ namespace
 
     void displayInfo()
     {
+        std::string s=getExeDir()+"/";
         std::ifstream inFile;
-        inFile.open("Res/info.txt");
+        inFile.open(s+"Res/info.txt");
         std::string line;
         while (std::getline(inFile, line))
         {

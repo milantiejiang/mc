@@ -360,4 +360,6 @@ dependencies: \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Renderer/../Shaders/WaterShader.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Renderer/FloraRenderer.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Renderer/../Shaders/FloraShader.h \
-  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Renderer/../Config.h
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Renderer/../Config.h \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../RenderSettings.h \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/../Util/FileUtil.h

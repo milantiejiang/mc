@@ -373,4 +373,5 @@ dependencies: \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../Maths/Ray.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../Renderer/RenderMaster.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../World/Event/PlayerDigEvent.h \
-  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../World/Chunk/../Event/../../Maths/glm.h
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../World/Chunk/../Event/../../Maths/glm.h \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/../Util/FileUtil.h

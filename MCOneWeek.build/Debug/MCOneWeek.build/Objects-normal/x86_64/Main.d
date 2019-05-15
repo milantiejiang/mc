@@ -341,4 +341,5 @@ dependencies: \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Entity.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.h \
-  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/../Maths/glm.h
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/../Maths/glm.h \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.h

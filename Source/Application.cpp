@@ -15,15 +15,13 @@ Application::Application(const Config& config)
 float g_timeElapsed = 0;
 
 
-void Application::runLoop()
-{
+void Application::runLoop(){
     sf::Clock dtTimer;
     sf::Clock dt;
 
     sf::Time m;
 
-    while (m_context.window.isOpen() && !m_states.empty())
-    {
+    while (m_context.window.isOpen() && !m_states.empty()){
         auto deltaTime = dtTimer.restart();
         auto& state = *m_states.back();
 

@@ -3,14 +3,15 @@
 #include "../Renderer/RenderMaster.h"
 
 #include <iostream>
+#include "FileUtil.h"
 
 FPSCounter::FPSCounter()
 {
     m_text.move(10, 10);
     m_text.setOutlineColor      (sf::Color::Black);
     m_text.setOutlineThickness  (2);
-
-    m_font.loadFromFile("Res/Fonts/rs.ttf");
+    std::string path=getExeDir()+"/";
+    m_font.loadFromFile(path+"Res/Fonts/rs.ttf");
     m_text.setFont(m_font);
     m_text.setCharacterSize(25);
 }

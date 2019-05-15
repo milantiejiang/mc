@@ -72,4 +72,5 @@ dependencies: \
   /opt/local/include/SFML/Graphics/Glsl.hpp \
   /opt/local/include/SFML/Graphics/Glsl.inl \
   /opt/local/include/SFML/Graphics/Sprite.hpp \
-  /opt/local/include/SFML/Graphics/Text.hpp
+  /opt/local/include/SFML/Graphics/Text.hpp \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/../FileUtil.h

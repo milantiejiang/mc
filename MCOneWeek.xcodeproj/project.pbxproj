@@ -35,100 +35,68 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		059E451702E44B6ABBAC8FC2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/NoiseGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 83DC7E2C3B594A44965C2DBA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/NoiseGenerator.cpp */; };
-		09D3DF9217974EE39EDF1595 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkSection.cpp */ = {isa = PBXBuildFile; fileRef = 9EC189AE5AFD44EA87D4386A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkSection.cpp */; };
-		1120ADBE23744DF9B71E8495 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/ChunkBlock.cpp */ = {isa = PBXBuildFile; fileRef = 19961762CAED4C1BB283677A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/ChunkBlock.cpp */; };
-		169A6D3E8546432DAFCD06A9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockData.cpp */ = {isa = PBXBuildFile; fileRef = F48FADF0C25C4631BC13C3E7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockData.cpp */; };
-		17B66B0EB6144BCCB38CCA7C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/TextureAtlas.cpp */ = {isa = PBXBuildFile; fileRef = 379691E7088A45EEA042718A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/TextureAtlas.cpp */; };
-		19E2493AB17F47DAB6BC8C03 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Context.cpp */ = {isa = PBXBuildFile; fileRef = D4FACECA59A347F99125B4D4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Context.cpp */; };
-		1AE6C4628A7544C5BE318561 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/GeneralMaths.cpp */ = {isa = PBXBuildFile; fileRef = 6981680AE0C1400D963E06C8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/GeneralMaths.cpp */; };
-		1B9541C3C43A4F1E91A19563 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/FloraShader.cpp */ = {isa = PBXBuildFile; fileRef = A8F9FAC87A0E4128B6234278 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/FloraShader.cpp */; };
-		20EB456A28114EF0B405D6F6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ShaderLoader.cpp */ = {isa = PBXBuildFile; fileRef = 4EBE7F510D7840C283C0A971 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ShaderLoader.cpp */; };
-		24777779708A43768E1B57DA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SkyboxRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 4C710DBDE043474D94D8464C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SkyboxRenderer.cpp */; };
-		249485F64B444BE29F9DDCE0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Application.cpp */ = {isa = PBXBuildFile; fileRef = ED2F4B03D9E8442787D24904 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Application.cpp */; };
-		26261F8492C24A4EB91A842F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SFMLRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 6B203BCA15EC415E9E8B6D1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SFMLRenderer.cpp */; };
-		30F3F2CDE3DD4ECDB00A9680 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/PlayingState.cpp */ = {isa = PBXBuildFile; fileRef = 3B4244AFE3504488A3C21A3C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/PlayingState.cpp */; };
-		3204EC3429804C4CA2E6DB2C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/TreeGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 5908D0BE78EF4F0F9639D5EF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/TreeGenerator.cpp */; };
-		37D383390AE842F0BD6F7B19 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FPSCounter.cpp */ = {isa = PBXBuildFile; fileRef = 7F8F5922C64E459BBF8362FD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FPSCounter.cpp */; };
-		3EDF2941746648F8B0271ED1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/GrasslandBiome.cpp */ = {isa = PBXBuildFile; fileRef = 35D7320BB113485B8000CD17 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/GrasslandBiome.cpp */; };
-		3F8F85D8752F4CF7AB816205 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/DesertBiome.cpp */ = {isa = PBXBuildFile; fileRef = 350C073AE1AE46B780B4D17D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/DesertBiome.cpp */; };
-		40E80AD13EF04F86A4D58D98 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMesh.cpp */ = {isa = PBXBuildFile; fileRef = 115FDBF67E6046C687C26AFD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMesh.cpp */; };
-		41AFE2538B574608852DD27C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/World.cpp */ = {isa = PBXBuildFile; fileRef = 53C2C1BD79DB43949448EF4D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/World.cpp */; };
-		454055C8DA154FB28D6A8E98 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/RenderMaster.cpp */ = {isa = PBXBuildFile; fileRef = 2ACBB36294414F59AB9D526C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/RenderMaster.cpp */; };
-		45A0434193AA44ACBE95F8B7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/WaterShader.cpp */ = {isa = PBXBuildFile; fileRef = C9F9174DE0894139B66C4769 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/WaterShader.cpp */; };
-		4965FE58165B427B911D9E02 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Camera.cpp */ = {isa = PBXBuildFile; fileRef = CBCD8888AAF54BF6846833D8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Camera.cpp */; };
-		4FE46D67555B4F6C9CE4005D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/WaterRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 1A61BB0ED8D04B3EA873E182 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/WaterRenderer.cpp */; };
-		50C000D289674F198F67F225 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/Random.cpp */ = {isa = PBXBuildFile; fileRef = 3FD338EE9034404AB5C4DCBD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/Random.cpp */; };
-		517352C898654A66BCD4477D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockDatabase.cpp */ = {isa = PBXBuildFile; fileRef = 5C0CBAE2EA26469085D69DCE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockDatabase.cpp */; };
-		55978B6D20264539B1849FBF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/Biome.cpp */ = {isa = PBXBuildFile; fileRef = 2838A5ECC88D4BCB9C75F42C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/Biome.cpp */; };
-		5C0EEF440F174195A7727366 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/TemperateForestBiome.cpp */ = {isa = PBXBuildFile; fileRef = 14B9731E6F2148D6973ECB4B /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/TemperateForestBiome.cpp */; };
-		625D6186D9CA40C78903765A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/Chunk.cpp */ = {isa = PBXBuildFile; fileRef = 8FDEE5875AAB4F49B9FCC850 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/Chunk.cpp */; };
-		66F77FBC4D9648D3B6FA3716 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B530134076C84292953E8CC1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */; };
-		6898028FDA1445E1A181FFD6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/GL/GLFunctions.cpp */ = {isa = PBXBuildFile; fileRef = 76A6B14AE0824D16900DB155 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/GL/GLFunctions.cpp */; };
-		6C47F03A7CB149F6B7B4840A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Frustum.cpp */ = {isa = PBXBuildFile; fileRef = 496541F3E6AC4238850DEBE2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Frustum.cpp */; };
-		6EBDC829B49348C7BFBF6EF6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Vector2XZ.cpp */ = {isa = PBXBuildFile; fileRef = 90E198B8721347B8AEE037FE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Vector2XZ.cpp */; };
-		73B5A41508734AEAB9E98F28 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.cpp */ = {isa = PBXBuildFile; fileRef = 24A36B9BD6CD40909985E5DF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.cpp */; };
-		75E738E6608B404D9B3F9DE9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/StructureBuilder.cpp */ = {isa = PBXBuildFile; fileRef = A2B7D35284EC46278D686C1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/StructureBuilder.cpp */; };
-		782FB63C20D745669106D69F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/FloraRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 7974B9A6150A4360894CFBA0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/FloraRenderer.cpp */; };
-		78846D8E4BBE4132874C78A8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ChunkShader.cpp */ = {isa = PBXBuildFile; fileRef = 9BFDA337893F41549EF0B0A3 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ChunkShader.cpp */; };
-		78BB1A2F0F5D48DB8ABD5771 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/ToggleKey.cpp */ = {isa = PBXBuildFile; fileRef = 05CAA12C44484C32A225A0C7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/ToggleKey.cpp */; };
-		7D1290734394467597EF6691 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/BasicShader.cpp */ = {isa = PBXBuildFile; fileRef = D0FE7E865C584F61A00D8733 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/BasicShader.cpp */; };
-		81281C67DAE74FDDA34B1392 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/SkyboxShader.cpp */ = {isa = PBXBuildFile; fileRef = CA03D2BE118449F8BDA41456 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/SkyboxShader.cpp */; };
-		92B8A12B6A0D45228CFE3F61 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/CubeTexture.cpp */ = {isa = PBXBuildFile; fileRef = 3DB2CBFF6CA04112B873CD03 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/CubeTexture.cpp */; };
-		9C4F63D877FF450D88E281F1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E2B26DDAA49F46E7911EEFD2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */; };
-		9D6FB941EB694D13BB57F3A4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/ItemStack.cpp */ = {isa = PBXBuildFile; fileRef = 4CBAFC9D03B945B1856A4CB8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/ItemStack.cpp */; };
-		A48D58CFA1964824BF371E15 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockTypes/BlockType.cpp */ = {isa = PBXBuildFile; fileRef = 577A925F2DD04FC1890B9B27 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockTypes/BlockType.cpp */; };
-		A4FAFDEAD9F2447CA7B5A65A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.cpp */ = {isa = PBXBuildFile; fileRef = FA33FF5A070C4F40828BF85C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.cpp */; };
-		A54F28D7BE9048D4A15336BB /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/Material.cpp */ = {isa = PBXBuildFile; fileRef = 6A438ADD518F40A889CEA4E4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/Material.cpp */; };
-		AA49055541DC4CE49E56CE80 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 42DD097F61784A67B15F2172 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMeshBuilder.cpp */; };
-		ACC3CF9AE7A1402A89B8C7EF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Controller.cpp */ = {isa = PBXBuildFile; fileRef = BB2032A2159542D1B1873C35 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Controller.cpp */; };
-		B2870173322B4C3291DEF0EC /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/OceanBiome.cpp */ = {isa = PBXBuildFile; fileRef = 5BA3A05CDFCF4997AB9D60A9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/OceanBiome.cpp */; };
-		B52796399A474A4CBA2F91BF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/SuperFlatGenerator.cpp */ = {isa = PBXBuildFile; fileRef = DF1BF273575A4A89932038EE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/SuperFlatGenerator.cpp */; };
-		B71A5F16F6964804A29F11F5 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/ChunkRenderer.cpp */ = {isa = PBXBuildFile; fileRef = 4C8DD4B483BE4BFE98DB878A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/ChunkRenderer.cpp */; };
-		C296E421B23C427FA0AC4559 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkManager.cpp */ = {isa = PBXBuildFile; fileRef = 56F120D8961C4ABCAC7D46BE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkManager.cpp */; };
-		C861DF53BD76461597C508F0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Event/PlayerDigEvent.cpp */ = {isa = PBXBuildFile; fileRef = FAD09C84120E408DB87FB35F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Event/PlayerDigEvent.cpp */; };
-		CCFB57EF8AA44370A1173B7D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp */ = {isa = PBXBuildFile; fileRef = 8496E1D03A374E2F869E7A33 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp */; };
-		CDAEBA5AC0F74AB9A7B06533 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/Shader.cpp */ = {isa = PBXBuildFile; fileRef = 361EDC51ED154B4C86708E09 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/Shader.cpp */; };
-		DAAE504570A74C038ACC18D2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/Player.cpp */ = {isa = PBXBuildFile; fileRef = 344590E5AA1F428BB8D3FD25 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/Player.cpp */; };
-		E660CFA82D5B46DEB02EC258 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Model.cpp */ = {isa = PBXBuildFile; fileRef = FC8B4A490E414C9A91EB5C7D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Model.cpp */; };
-		E72413252D2C4FD78EF38311 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad/glad.c */ = {isa = PBXBuildFile; fileRef = 56D875A2401648CABA855649 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad/glad.c */; };
-		E7EF7B56498D4513AFE9C95B /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/LightForest.cpp */ = {isa = PBXBuildFile; fileRef = 4C66DFC469D34FC99EEF8949 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/LightForest.cpp */; };
-		E85A1B4BA5304493B5E6E953 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Ray.cpp */ = {isa = PBXBuildFile; fileRef = 09248958E5814D5F89340D88 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Ray.cpp */; };
-		F1072DCAEC5C4BE58D33829F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Main.cpp */ = {isa = PBXBuildFile; fileRef = EE4DE2742EEA4D1085E6388F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Main.cpp */; };
-		F149D69A9BC445E5B3B9EDC4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/BasicTexture.cpp */ = {isa = PBXBuildFile; fileRef = 654923731EEA4C34B402C661 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/BasicTexture.cpp */; };
-		F7EE1DBF1CDC4D7CB409FB3D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.cpp */ = {isa = PBXBuildFile; fileRef = 47592D4EBA90472199363B4A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.cpp */; };
+		059E451702E44B6ABBAC8FC2 /* NoiseGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83DC7E2C3B594A44965C2DBA /* NoiseGenerator.cpp */; };
+		09D3DF9217974EE39EDF1595 /* ChunkSection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EC189AE5AFD44EA87D4386A /* ChunkSection.cpp */; };
+		1120ADBE23744DF9B71E8495 /* ChunkBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19961762CAED4C1BB283677A /* ChunkBlock.cpp */; };
+		169A6D3E8546432DAFCD06A9 /* BlockData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F48FADF0C25C4631BC13C3E7 /* BlockData.cpp */; };
+		17B66B0EB6144BCCB38CCA7C /* TextureAtlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379691E7088A45EEA042718A /* TextureAtlas.cpp */; };
+		19E2493AB17F47DAB6BC8C03 /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4FACECA59A347F99125B4D4 /* Context.cpp */; };
+		1AE6C4628A7544C5BE318561 /* GeneralMaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6981680AE0C1400D963E06C8 /* GeneralMaths.cpp */; };
+		1B9541C3C43A4F1E91A19563 /* FloraShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8F9FAC87A0E4128B6234278 /* FloraShader.cpp */; };
+		1BDF894C228BD9C900D93A5A /* RenderSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF894B228BD9C900D93A5A /* RenderSettings.cpp */; };
+		20EB456A28114EF0B405D6F6 /* ShaderLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EBE7F510D7840C283C0A971 /* ShaderLoader.cpp */; };
+		24777779708A43768E1B57DA /* SkyboxRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C710DBDE043474D94D8464C /* SkyboxRenderer.cpp */; };
+		249485F64B444BE29F9DDCE0 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED2F4B03D9E8442787D24904 /* Application.cpp */; };
+		26261F8492C24A4EB91A842F /* SFMLRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B203BCA15EC415E9E8B6D1F /* SFMLRenderer.cpp */; };
+		30F3F2CDE3DD4ECDB00A9680 /* PlayingState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B4244AFE3504488A3C21A3C /* PlayingState.cpp */; };
+		3204EC3429804C4CA2E6DB2C /* TreeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5908D0BE78EF4F0F9639D5EF /* TreeGenerator.cpp */; };
+		37D383390AE842F0BD6F7B19 /* FPSCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F5922C64E459BBF8362FD /* FPSCounter.cpp */; };
+		3EDF2941746648F8B0271ED1 /* GrasslandBiome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35D7320BB113485B8000CD17 /* GrasslandBiome.cpp */; };
+		3F8F85D8752F4CF7AB816205 /* DesertBiome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 350C073AE1AE46B780B4D17D /* DesertBiome.cpp */; };
+		40E80AD13EF04F86A4D58D98 /* ChunkMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 115FDBF67E6046C687C26AFD /* ChunkMesh.cpp */; };
+		41AFE2538B574608852DD27C /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53C2C1BD79DB43949448EF4D /* World.cpp */; };
+		454055C8DA154FB28D6A8E98 /* RenderMaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2ACBB36294414F59AB9D526C /* RenderMaster.cpp */; };
+		45A0434193AA44ACBE95F8B7 /* WaterShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F9174DE0894139B66C4769 /* WaterShader.cpp */; };
+		4965FE58165B427B911D9E02 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBCD8888AAF54BF6846833D8 /* Camera.cpp */; };
+		4FE46D67555B4F6C9CE4005D /* WaterRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A61BB0ED8D04B3EA873E182 /* WaterRenderer.cpp */; };
+		50C000D289674F198F67F225 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD338EE9034404AB5C4DCBD /* Random.cpp */; };
+		517352C898654A66BCD4477D /* BlockDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0CBAE2EA26469085D69DCE /* BlockDatabase.cpp */; };
+		55978B6D20264539B1849FBF /* Biome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2838A5ECC88D4BCB9C75F42C /* Biome.cpp */; };
+		5C0EEF440F174195A7727366 /* TemperateForestBiome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14B9731E6F2148D6973ECB4B /* TemperateForestBiome.cpp */; };
+		625D6186D9CA40C78903765A /* Chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FDEE5875AAB4F49B9FCC850 /* Chunk.cpp */; };
+		6898028FDA1445E1A181FFD6 /* GLFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76A6B14AE0824D16900DB155 /* GLFunctions.cpp */; };
+		6C47F03A7CB149F6B7B4840A /* Frustum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496541F3E6AC4238850DEBE2 /* Frustum.cpp */; };
+		6EBDC829B49348C7BFBF6EF6 /* Vector2XZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90E198B8721347B8AEE037FE /* Vector2XZ.cpp */; };
+		73B5A41508734AEAB9E98F28 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24A36B9BD6CD40909985E5DF /* Matrix.cpp */; };
+		75E738E6608B404D9B3F9DE9 /* StructureBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2B7D35284EC46278D686C1F /* StructureBuilder.cpp */; };
+		782FB63C20D745669106D69F /* FloraRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7974B9A6150A4360894CFBA0 /* FloraRenderer.cpp */; };
+		78846D8E4BBE4132874C78A8 /* ChunkShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA337893F41549EF0B0A3 /* ChunkShader.cpp */; };
+		78BB1A2F0F5D48DB8ABD5771 /* ToggleKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05CAA12C44484C32A225A0C7 /* ToggleKey.cpp */; };
+		7D1290734394467597EF6691 /* BasicShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE7E865C584F61A00D8733 /* BasicShader.cpp */; };
+		81281C67DAE74FDDA34B1392 /* SkyboxShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA03D2BE118449F8BDA41456 /* SkyboxShader.cpp */; };
+		92B8A12B6A0D45228CFE3F61 /* CubeTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2CBFF6CA04112B873CD03 /* CubeTexture.cpp */; };
+		9D6FB941EB694D13BB57F3A4 /* ItemStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CBAFC9D03B945B1856A4CB8 /* ItemStack.cpp */; };
+		A48D58CFA1964824BF371E15 /* BlockType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577A925F2DD04FC1890B9B27 /* BlockType.cpp */; };
+		A4FAFDEAD9F2447CA7B5A65A /* AABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA33FF5A070C4F40828BF85C /* AABB.cpp */; };
+		A54F28D7BE9048D4A15336BB /* Material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A438ADD518F40A889CEA4E4 /* Material.cpp */; };
+		AA49055541DC4CE49E56CE80 /* ChunkMeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42DD097F61784A67B15F2172 /* ChunkMeshBuilder.cpp */; };
+		ACC3CF9AE7A1402A89B8C7EF /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB2032A2159542D1B1873C35 /* Controller.cpp */; };
+		B2870173322B4C3291DEF0EC /* OceanBiome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3A05CDFCF4997AB9D60A9 /* OceanBiome.cpp */; };
+		B52796399A474A4CBA2F91BF /* SuperFlatGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF1BF273575A4A89932038EE /* SuperFlatGenerator.cpp */; };
+		B71A5F16F6964804A29F11F5 /* ChunkRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DD4B483BE4BFE98DB878A /* ChunkRenderer.cpp */; };
+		C296E421B23C427FA0AC4559 /* ChunkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56F120D8961C4ABCAC7D46BE /* ChunkManager.cpp */; };
+		C861DF53BD76461597C508F0 /* PlayerDigEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FAD09C84120E408DB87FB35F /* PlayerDigEvent.cpp */; };
+		CCFB57EF8AA44370A1173B7D /* ClassicOverWorldGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8496E1D03A374E2F869E7A33 /* ClassicOverWorldGenerator.cpp */; };
+		CDAEBA5AC0F74AB9A7B06533 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361EDC51ED154B4C86708E09 /* Shader.cpp */; };
+		DAAE504570A74C038ACC18D2 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 344590E5AA1F428BB8D3FD25 /* Player.cpp */; };
+		E660CFA82D5B46DEB02EC258 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8B4A490E414C9A91EB5C7D /* Model.cpp */; };
+		E72413252D2C4FD78EF38311 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 56D875A2401648CABA855649 /* glad.c */; };
+		E7EF7B56498D4513AFE9C95B /* LightForest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C66DFC469D34FC99EEF8949 /* LightForest.cpp */; };
+		E85A1B4BA5304493B5E6E953 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 09248958E5814D5F89340D88 /* Ray.cpp */; };
+		F1072DCAEC5C4BE58D33829F /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE4DE2742EEA4D1085E6388F /* Main.cpp */; };
+		F149D69A9BC445E5B3B9EDC4 /* BasicTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654923731EEA4C34B402C661 /* BasicTexture.cpp */; };
+		F7EE1DBF1CDC4D7CB409FB3D /* FileUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47592D4EBA90472199363B4A /* FileUtil.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		33C968AFCE30407395200EE8 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		6B95F5629E974C109A93A5E1 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		94D3977FAD20464280BE74C2 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		F989E5564CFC40BB8B3102B6 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		2EFBA802C72E48BDB2BAEF75 /* PBXContainerItemProxy */ = {
@@ -176,71 +144,74 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CAA12C44484C32A225A0C7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/ToggleKey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ToggleKey.cpp; path = Source/ToggleKey.cpp; sourceTree = SOURCE_ROOT; };
-		09248958E5814D5F89340D88 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Ray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ray.cpp; path = Source/Maths/Ray.cpp; sourceTree = SOURCE_ROOT; };
-		115FDBF67E6046C687C26AFD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkMesh.cpp; path = Source/World/Chunk/ChunkMesh.cpp; sourceTree = SOURCE_ROOT; };
-		14B9731E6F2148D6973ECB4B /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/TemperateForestBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TemperateForestBiome.cpp; path = Source/World/Generation/Biome/TemperateForestBiome.cpp; sourceTree = SOURCE_ROOT; };
-		19961762CAED4C1BB283677A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/ChunkBlock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkBlock.cpp; path = Source/World/Block/ChunkBlock.cpp; sourceTree = SOURCE_ROOT; };
-		1A61BB0ED8D04B3EA873E182 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/WaterRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WaterRenderer.cpp; path = Source/Renderer/WaterRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		24A36B9BD6CD40909985E5DF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix.cpp; path = Source/Maths/Matrix.cpp; sourceTree = SOURCE_ROOT; };
-		2838A5ECC88D4BCB9C75F42C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/Biome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Biome.cpp; path = Source/World/Generation/Biome/Biome.cpp; sourceTree = SOURCE_ROOT; };
-		2ACBB36294414F59AB9D526C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/RenderMaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderMaster.cpp; path = Source/Renderer/RenderMaster.cpp; sourceTree = SOURCE_ROOT; };
-		344590E5AA1F428BB8D3FD25 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = Source/Player/Player.cpp; sourceTree = SOURCE_ROOT; };
-		350C073AE1AE46B780B4D17D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/DesertBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DesertBiome.cpp; path = Source/World/Generation/Biome/DesertBiome.cpp; sourceTree = SOURCE_ROOT; };
-		35D7320BB113485B8000CD17 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/GrasslandBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GrasslandBiome.cpp; path = Source/World/Generation/Biome/GrasslandBiome.cpp; sourceTree = SOURCE_ROOT; };
-		361EDC51ED154B4C86708E09 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = Source/Shaders/Shader.cpp; sourceTree = SOURCE_ROOT; };
-		379691E7088A45EEA042718A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/TextureAtlas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureAtlas.cpp; path = Source/Texture/TextureAtlas.cpp; sourceTree = SOURCE_ROOT; };
-		3B4244AFE3504488A3C21A3C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/PlayingState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlayingState.cpp; path = Source/States/PlayingState.cpp; sourceTree = SOURCE_ROOT; };
-		3DB2CBFF6CA04112B873CD03 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/CubeTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CubeTexture.cpp; path = Source/Texture/CubeTexture.cpp; sourceTree = SOURCE_ROOT; };
-		3FD338EE9034404AB5C4DCBD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/Random.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Random.cpp; path = Source/Util/Random.cpp; sourceTree = SOURCE_ROOT; };
-		42DD097F61784A67B15F2172 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkMeshBuilder.cpp; path = Source/World/Chunk/ChunkMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		47592D4EBA90472199363B4A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileUtil.cpp; path = Source/Util/FileUtil.cpp; sourceTree = SOURCE_ROOT; };
-		496541F3E6AC4238850DEBE2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Frustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Frustum.cpp; path = Source/Maths/Frustum.cpp; sourceTree = SOURCE_ROOT; };
-		4C66DFC469D34FC99EEF8949 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/LightForest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LightForest.cpp; path = Source/World/Generation/Biome/LightForest.cpp; sourceTree = SOURCE_ROOT; };
-		4C710DBDE043474D94D8464C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SkyboxRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkyboxRenderer.cpp; path = Source/Renderer/SkyboxRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		4C8DD4B483BE4BFE98DB878A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/ChunkRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkRenderer.cpp; path = Source/Renderer/ChunkRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		4CBAFC9D03B945B1856A4CB8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/ItemStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ItemStack.cpp; path = Source/Item/ItemStack.cpp; sourceTree = SOURCE_ROOT; };
-		4EBE7F510D7840C283C0A971 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ShaderLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderLoader.cpp; path = Source/Shaders/ShaderLoader.cpp; sourceTree = SOURCE_ROOT; };
-		53C2C1BD79DB43949448EF4D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/World.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = World.cpp; path = Source/World/World.cpp; sourceTree = SOURCE_ROOT; };
-		56D875A2401648CABA855649 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad/glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = Source/glad/glad.c; sourceTree = SOURCE_ROOT; };
-		56F120D8961C4ABCAC7D46BE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkManager.cpp; path = Source/World/Chunk/ChunkManager.cpp; sourceTree = SOURCE_ROOT; };
-		577A925F2DD04FC1890B9B27 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockTypes/BlockType.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockType.cpp; path = Source/World/Block/BlockTypes/BlockType.cpp; sourceTree = SOURCE_ROOT; };
-		5908D0BE78EF4F0F9639D5EF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/TreeGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TreeGenerator.cpp; path = Source/World/Generation/Structures/TreeGenerator.cpp; sourceTree = SOURCE_ROOT; };
-		5BA3A05CDFCF4997AB9D60A9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/OceanBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OceanBiome.cpp; path = Source/World/Generation/Biome/OceanBiome.cpp; sourceTree = SOURCE_ROOT; };
-		5C0CBAE2EA26469085D69DCE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockDatabase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockDatabase.cpp; path = Source/World/Block/BlockDatabase.cpp; sourceTree = SOURCE_ROOT; };
-		654923731EEA4C34B402C661 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/BasicTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicTexture.cpp; path = Source/Texture/BasicTexture.cpp; sourceTree = SOURCE_ROOT; };
-		6981680AE0C1400D963E06C8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/GeneralMaths.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GeneralMaths.cpp; path = Source/Maths/GeneralMaths.cpp; sourceTree = SOURCE_ROOT; };
-		6A438ADD518F40A889CEA4E4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = Source/Item/Material.cpp; sourceTree = SOURCE_ROOT; };
-		6B203BCA15EC415E9E8B6D1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SFMLRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SFMLRenderer.cpp; path = Source/Renderer/SFMLRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		76A6B14AE0824D16900DB155 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/GL/GLFunctions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLFunctions.cpp; path = Source/GL/GLFunctions.cpp; sourceTree = SOURCE_ROOT; };
-		7974B9A6150A4360894CFBA0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/FloraRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FloraRenderer.cpp; path = Source/Renderer/FloraRenderer.cpp; sourceTree = SOURCE_ROOT; };
-		7F8F5922C64E459BBF8362FD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FPSCounter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FPSCounter.cpp; path = Source/Util/FPSCounter.cpp; sourceTree = SOURCE_ROOT; };
-		83DC7E2C3B594A44965C2DBA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/NoiseGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NoiseGenerator.cpp; path = Source/Maths/NoiseGenerator.cpp; sourceTree = SOURCE_ROOT; };
-		8496E1D03A374E2F869E7A33 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ClassicOverWorldGenerator.cpp; path = Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp; sourceTree = SOURCE_ROOT; };
-		87EB730D312F44C3B457005E /* glad */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FDEE5875AAB4F49B9FCC850 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/Chunk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chunk.cpp; path = Source/World/Chunk/Chunk.cpp; sourceTree = SOURCE_ROOT; };
-		90E198B8721347B8AEE037FE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Vector2XZ.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector2XZ.cpp; path = Source/Maths/Vector2XZ.cpp; sourceTree = SOURCE_ROOT; };
-		9BFDA337893F41549EF0B0A3 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ChunkShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkShader.cpp; path = Source/Shaders/ChunkShader.cpp; sourceTree = SOURCE_ROOT; };
-		9EC189AE5AFD44EA87D4386A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkSection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkSection.cpp; path = Source/World/Chunk/ChunkSection.cpp; sourceTree = SOURCE_ROOT; };
-		A2B7D35284EC46278D686C1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/StructureBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StructureBuilder.cpp; path = Source/World/Generation/Structures/StructureBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		A8F9FAC87A0E4128B6234278 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/FloraShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FloraShader.cpp; path = Source/Shaders/FloraShader.cpp; sourceTree = SOURCE_ROOT; };
-		B530134076C84292953E8CC1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		BB2032A2159542D1B1873C35 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Controller.cpp; path = Source/Controller.cpp; sourceTree = SOURCE_ROOT; };
-		C5F03CFADA1A444FB0A701DA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		C9F9174DE0894139B66C4769 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/WaterShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WaterShader.cpp; path = Source/Shaders/WaterShader.cpp; sourceTree = SOURCE_ROOT; };
-		CA03D2BE118449F8BDA41456 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/SkyboxShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkyboxShader.cpp; path = Source/Shaders/SkyboxShader.cpp; sourceTree = SOURCE_ROOT; };
-		CBCD8888AAF54BF6846833D8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Source/Camera.cpp; sourceTree = SOURCE_ROOT; };
-		D0FE7E865C584F61A00D8733 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/BasicShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicShader.cpp; path = Source/Shaders/BasicShader.cpp; sourceTree = SOURCE_ROOT; };
-		D4FACECA59A347F99125B4D4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = Source/Context.cpp; sourceTree = SOURCE_ROOT; };
+		05CAA12C44484C32A225A0C7 /* ToggleKey.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ToggleKey.cpp; path = Source/ToggleKey.cpp; sourceTree = SOURCE_ROOT; };
+		09248958E5814D5F89340D88 /* Ray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Ray.cpp; path = Source/Maths/Ray.cpp; sourceTree = SOURCE_ROOT; };
+		115FDBF67E6046C687C26AFD /* ChunkMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkMesh.cpp; path = Source/World/Chunk/ChunkMesh.cpp; sourceTree = SOURCE_ROOT; };
+		14B9731E6F2148D6973ECB4B /* TemperateForestBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TemperateForestBiome.cpp; path = Source/World/Generation/Biome/TemperateForestBiome.cpp; sourceTree = SOURCE_ROOT; };
+		19961762CAED4C1BB283677A /* ChunkBlock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkBlock.cpp; path = Source/World/Block/ChunkBlock.cpp; sourceTree = SOURCE_ROOT; };
+		1A61BB0ED8D04B3EA873E182 /* WaterRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WaterRenderer.cpp; path = Source/Renderer/WaterRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		1BDF8948228BAD1100D93A5A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1BDF894A228BD96F00D93A5A /* RenderSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderSettings.h; path = Source/RenderSettings.h; sourceTree = "<group>"; };
+		1BDF894B228BD9C900D93A5A /* RenderSettings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RenderSettings.cpp; path = Source/RenderSettings.cpp; sourceTree = "<group>"; };
+		24A36B9BD6CD40909985E5DF /* Matrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix.cpp; path = Source/Maths/Matrix.cpp; sourceTree = SOURCE_ROOT; };
+		2838A5ECC88D4BCB9C75F42C /* Biome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Biome.cpp; path = Source/World/Generation/Biome/Biome.cpp; sourceTree = SOURCE_ROOT; };
+		2ACBB36294414F59AB9D526C /* RenderMaster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderMaster.cpp; path = Source/Renderer/RenderMaster.cpp; sourceTree = SOURCE_ROOT; };
+		344590E5AA1F428BB8D3FD25 /* Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = Source/Player/Player.cpp; sourceTree = SOURCE_ROOT; };
+		350C073AE1AE46B780B4D17D /* DesertBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DesertBiome.cpp; path = Source/World/Generation/Biome/DesertBiome.cpp; sourceTree = SOURCE_ROOT; };
+		35D7320BB113485B8000CD17 /* GrasslandBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GrasslandBiome.cpp; path = Source/World/Generation/Biome/GrasslandBiome.cpp; sourceTree = SOURCE_ROOT; };
+		361EDC51ED154B4C86708E09 /* Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = Source/Shaders/Shader.cpp; sourceTree = SOURCE_ROOT; };
+		379691E7088A45EEA042718A /* TextureAtlas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextureAtlas.cpp; path = Source/Texture/TextureAtlas.cpp; sourceTree = SOURCE_ROOT; };
+		3B4244AFE3504488A3C21A3C /* PlayingState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlayingState.cpp; path = Source/States/PlayingState.cpp; sourceTree = SOURCE_ROOT; };
+		3DB2CBFF6CA04112B873CD03 /* CubeTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CubeTexture.cpp; path = Source/Texture/CubeTexture.cpp; sourceTree = SOURCE_ROOT; };
+		3FD338EE9034404AB5C4DCBD /* Random.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Random.cpp; path = Source/Util/Random.cpp; sourceTree = SOURCE_ROOT; };
+		42DD097F61784A67B15F2172 /* ChunkMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkMeshBuilder.cpp; path = Source/World/Chunk/ChunkMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		47592D4EBA90472199363B4A /* FileUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileUtil.cpp; path = Source/Util/FileUtil.cpp; sourceTree = SOURCE_ROOT; };
+		496541F3E6AC4238850DEBE2 /* Frustum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Frustum.cpp; path = Source/Maths/Frustum.cpp; sourceTree = SOURCE_ROOT; };
+		4C66DFC469D34FC99EEF8949 /* LightForest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = LightForest.cpp; path = Source/World/Generation/Biome/LightForest.cpp; sourceTree = SOURCE_ROOT; };
+		4C710DBDE043474D94D8464C /* SkyboxRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkyboxRenderer.cpp; path = Source/Renderer/SkyboxRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		4C8DD4B483BE4BFE98DB878A /* ChunkRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkRenderer.cpp; path = Source/Renderer/ChunkRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		4CBAFC9D03B945B1856A4CB8 /* ItemStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ItemStack.cpp; path = Source/Item/ItemStack.cpp; sourceTree = SOURCE_ROOT; };
+		4EBE7F510D7840C283C0A971 /* ShaderLoader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ShaderLoader.cpp; path = Source/Shaders/ShaderLoader.cpp; sourceTree = SOURCE_ROOT; };
+		53C2C1BD79DB43949448EF4D /* World.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = World.cpp; path = Source/World/World.cpp; sourceTree = SOURCE_ROOT; };
+		56D875A2401648CABA855649 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = Source/glad/glad.c; sourceTree = SOURCE_ROOT; };
+		56F120D8961C4ABCAC7D46BE /* ChunkManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkManager.cpp; path = Source/World/Chunk/ChunkManager.cpp; sourceTree = SOURCE_ROOT; };
+		577A925F2DD04FC1890B9B27 /* BlockType.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockType.cpp; path = Source/World/Block/BlockTypes/BlockType.cpp; sourceTree = SOURCE_ROOT; };
+		5908D0BE78EF4F0F9639D5EF /* TreeGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TreeGenerator.cpp; path = Source/World/Generation/Structures/TreeGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		5BA3A05CDFCF4997AB9D60A9 /* OceanBiome.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OceanBiome.cpp; path = Source/World/Generation/Biome/OceanBiome.cpp; sourceTree = SOURCE_ROOT; };
+		5C0CBAE2EA26469085D69DCE /* BlockDatabase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockDatabase.cpp; path = Source/World/Block/BlockDatabase.cpp; sourceTree = SOURCE_ROOT; };
+		654923731EEA4C34B402C661 /* BasicTexture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicTexture.cpp; path = Source/Texture/BasicTexture.cpp; sourceTree = SOURCE_ROOT; };
+		6981680AE0C1400D963E06C8 /* GeneralMaths.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GeneralMaths.cpp; path = Source/Maths/GeneralMaths.cpp; sourceTree = SOURCE_ROOT; };
+		6A438ADD518F40A889CEA4E4 /* Material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Material.cpp; path = Source/Item/Material.cpp; sourceTree = SOURCE_ROOT; };
+		6B203BCA15EC415E9E8B6D1F /* SFMLRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SFMLRenderer.cpp; path = Source/Renderer/SFMLRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		76A6B14AE0824D16900DB155 /* GLFunctions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GLFunctions.cpp; path = Source/GL/GLFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		7974B9A6150A4360894CFBA0 /* FloraRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FloraRenderer.cpp; path = Source/Renderer/FloraRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		7F8F5922C64E459BBF8362FD /* FPSCounter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FPSCounter.cpp; path = Source/Util/FPSCounter.cpp; sourceTree = SOURCE_ROOT; };
+		83DC7E2C3B594A44965C2DBA /* NoiseGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NoiseGenerator.cpp; path = Source/Maths/NoiseGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		8496E1D03A374E2F869E7A33 /* ClassicOverWorldGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ClassicOverWorldGenerator.cpp; path = Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		87EB730D312F44C3B457005E /* libglad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FDEE5875AAB4F49B9FCC850 /* Chunk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Chunk.cpp; path = Source/World/Chunk/Chunk.cpp; sourceTree = SOURCE_ROOT; };
+		90E198B8721347B8AEE037FE /* Vector2XZ.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Vector2XZ.cpp; path = Source/Maths/Vector2XZ.cpp; sourceTree = SOURCE_ROOT; };
+		9BFDA337893F41549EF0B0A3 /* ChunkShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkShader.cpp; path = Source/Shaders/ChunkShader.cpp; sourceTree = SOURCE_ROOT; };
+		9EC189AE5AFD44EA87D4386A /* ChunkSection.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ChunkSection.cpp; path = Source/World/Chunk/ChunkSection.cpp; sourceTree = SOURCE_ROOT; };
+		A2B7D35284EC46278D686C1F /* StructureBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StructureBuilder.cpp; path = Source/World/Generation/Structures/StructureBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		A8F9FAC87A0E4128B6234278 /* FloraShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FloraShader.cpp; path = Source/Shaders/FloraShader.cpp; sourceTree = SOURCE_ROOT; };
+		B530134076C84292953E8CC1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB2032A2159542D1B1873C35 /* Controller.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Controller.cpp; path = Source/Controller.cpp; sourceTree = SOURCE_ROOT; };
+		C5F03CFADA1A444FB0A701DA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C9F9174DE0894139B66C4769 /* WaterShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WaterShader.cpp; path = Source/Shaders/WaterShader.cpp; sourceTree = SOURCE_ROOT; };
+		CA03D2BE118449F8BDA41456 /* SkyboxShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SkyboxShader.cpp; path = Source/Shaders/SkyboxShader.cpp; sourceTree = SOURCE_ROOT; };
+		CBCD8888AAF54BF6846833D8 /* Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = Source/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		D0FE7E865C584F61A00D8733 /* BasicShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BasicShader.cpp; path = Source/Shaders/BasicShader.cpp; sourceTree = SOURCE_ROOT; };
+		D4FACECA59A347F99125B4D4 /* Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = Source/Context.cpp; sourceTree = SOURCE_ROOT; };
 		DE587DFB37F94B5BA0325704 /* MCOneWeek */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = MCOneWeek; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF1BF273575A4A89932038EE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/SuperFlatGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SuperFlatGenerator.cpp; path = Source/World/Generation/Terrain/SuperFlatGenerator.cpp; sourceTree = SOURCE_ROOT; };
-		E2B26DDAA49F46E7911EEFD2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		ED2F4B03D9E8442787D24904 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Application.cpp; path = Source/Application.cpp; sourceTree = SOURCE_ROOT; };
-		EE4DE2742EEA4D1085E6388F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Source/Main.cpp; sourceTree = SOURCE_ROOT; };
-		F48FADF0C25C4631BC13C3E7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockData.cpp; path = Source/World/Block/BlockData.cpp; sourceTree = SOURCE_ROOT; };
-		FA33FF5A070C4F40828BF85C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AABB.cpp; path = Source/Physics/AABB.cpp; sourceTree = SOURCE_ROOT; };
-		FAD09C84120E408DB87FB35F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Event/PlayerDigEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlayerDigEvent.cpp; path = Source/World/Event/PlayerDigEvent.cpp; sourceTree = SOURCE_ROOT; };
-		FC8B4A490E414C9A91EB5C7D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Model.cpp; path = Source/Model.cpp; sourceTree = SOURCE_ROOT; };
+		DF1BF273575A4A89932038EE /* SuperFlatGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SuperFlatGenerator.cpp; path = Source/World/Generation/Terrain/SuperFlatGenerator.cpp; sourceTree = SOURCE_ROOT; };
+		E2B26DDAA49F46E7911EEFD2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ED2F4B03D9E8442787D24904 /* Application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Application.cpp; path = Source/Application.cpp; sourceTree = SOURCE_ROOT; };
+		EE4DE2742EEA4D1085E6388F /* Main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Main.cpp; path = Source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		F48FADF0C25C4631BC13C3E7 /* BlockData.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BlockData.cpp; path = Source/World/Block/BlockData.cpp; sourceTree = SOURCE_ROOT; };
+		FA33FF5A070C4F40828BF85C /* AABB.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AABB.cpp; path = Source/Physics/AABB.cpp; sourceTree = SOURCE_ROOT; };
+		FAD09C84120E408DB87FB35F /* PlayerDigEvent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlayerDigEvent.cpp; path = Source/World/Event/PlayerDigEvent.cpp; sourceTree = SOURCE_ROOT; };
+		FC8B4A490E414C9A91EB5C7D /* Model.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Model.cpp; path = Source/Model.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -248,15 +219,23 @@
 			isa = PBXGroup;
 			children = (
 				DE587DFB37F94B5BA0325704 /* MCOneWeek */,
-				87EB730D312F44C3B457005E /* glad */,
+				87EB730D312F44C3B457005E /* libglad.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1BDF8947228BAD1100D93A5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BDF8948228BAD1100D93A5A /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4AAE9A20E4244472A6546D3F /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				56D875A2401648CABA855649 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad/glad.c */,
+				56D875A2401648CABA855649 /* glad.c */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -268,6 +247,7 @@
 				EC1A12C874B94B8BA981E185 /* MCOneWeek */,
 				F79C9FBC3E8F4CB691E58E3A /* ALL_BUILD */,
 				19A3200DFD474333A567ACF2 /* Products */,
+				1BDF8947228BAD1100D93A5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -281,65 +261,67 @@
 		92B9A74F44FB4DB2A13E3081 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED2F4B03D9E8442787D24904 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Application.cpp */,
-				CBCD8888AAF54BF6846833D8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Camera.cpp */,
-				D4FACECA59A347F99125B4D4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Context.cpp */,
-				BB2032A2159542D1B1873C35 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Controller.cpp */,
-				76A6B14AE0824D16900DB155 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/GL/GLFunctions.cpp */,
-				4CBAFC9D03B945B1856A4CB8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/ItemStack.cpp */,
-				6A438ADD518F40A889CEA4E4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/Material.cpp */,
-				EE4DE2742EEA4D1085E6388F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Main.cpp */,
-				496541F3E6AC4238850DEBE2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Frustum.cpp */,
-				6981680AE0C1400D963E06C8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/GeneralMaths.cpp */,
-				24A36B9BD6CD40909985E5DF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.cpp */,
-				83DC7E2C3B594A44965C2DBA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/NoiseGenerator.cpp */,
-				09248958E5814D5F89340D88 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Ray.cpp */,
-				90E198B8721347B8AEE037FE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Vector2XZ.cpp */,
-				FC8B4A490E414C9A91EB5C7D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Model.cpp */,
-				FA33FF5A070C4F40828BF85C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.cpp */,
-				344590E5AA1F428BB8D3FD25 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/Player.cpp */,
-				4C8DD4B483BE4BFE98DB878A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/ChunkRenderer.cpp */,
-				7974B9A6150A4360894CFBA0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/FloraRenderer.cpp */,
-				2ACBB36294414F59AB9D526C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/RenderMaster.cpp */,
-				6B203BCA15EC415E9E8B6D1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SFMLRenderer.cpp */,
-				4C710DBDE043474D94D8464C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SkyboxRenderer.cpp */,
-				1A61BB0ED8D04B3EA873E182 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/WaterRenderer.cpp */,
-				D0FE7E865C584F61A00D8733 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/BasicShader.cpp */,
-				9BFDA337893F41549EF0B0A3 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ChunkShader.cpp */,
-				A8F9FAC87A0E4128B6234278 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/FloraShader.cpp */,
-				361EDC51ED154B4C86708E09 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/Shader.cpp */,
-				4EBE7F510D7840C283C0A971 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ShaderLoader.cpp */,
-				CA03D2BE118449F8BDA41456 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/SkyboxShader.cpp */,
-				C9F9174DE0894139B66C4769 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/WaterShader.cpp */,
-				3B4244AFE3504488A3C21A3C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/PlayingState.cpp */,
-				654923731EEA4C34B402C661 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/BasicTexture.cpp */,
-				3DB2CBFF6CA04112B873CD03 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/CubeTexture.cpp */,
-				379691E7088A45EEA042718A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/TextureAtlas.cpp */,
-				05CAA12C44484C32A225A0C7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/ToggleKey.cpp */,
-				7F8F5922C64E459BBF8362FD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FPSCounter.cpp */,
-				47592D4EBA90472199363B4A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.cpp */,
-				3FD338EE9034404AB5C4DCBD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/Random.cpp */,
-				F48FADF0C25C4631BC13C3E7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockData.cpp */,
-				5C0CBAE2EA26469085D69DCE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockDatabase.cpp */,
-				577A925F2DD04FC1890B9B27 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockTypes/BlockType.cpp */,
-				19961762CAED4C1BB283677A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/ChunkBlock.cpp */,
-				8FDEE5875AAB4F49B9FCC850 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/Chunk.cpp */,
-				56F120D8961C4ABCAC7D46BE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkManager.cpp */,
-				115FDBF67E6046C687C26AFD /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMesh.cpp */,
-				42DD097F61784A67B15F2172 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMeshBuilder.cpp */,
-				9EC189AE5AFD44EA87D4386A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkSection.cpp */,
-				FAD09C84120E408DB87FB35F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Event/PlayerDigEvent.cpp */,
-				2838A5ECC88D4BCB9C75F42C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/Biome.cpp */,
-				350C073AE1AE46B780B4D17D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/DesertBiome.cpp */,
-				35D7320BB113485B8000CD17 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/GrasslandBiome.cpp */,
-				4C66DFC469D34FC99EEF8949 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/LightForest.cpp */,
-				5BA3A05CDFCF4997AB9D60A9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/OceanBiome.cpp */,
-				14B9731E6F2148D6973ECB4B /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/TemperateForestBiome.cpp */,
-				A2B7D35284EC46278D686C1F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/StructureBuilder.cpp */,
-				5908D0BE78EF4F0F9639D5EF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/TreeGenerator.cpp */,
-				8496E1D03A374E2F869E7A33 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp */,
-				DF1BF273575A4A89932038EE /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/SuperFlatGenerator.cpp */,
-				53C2C1BD79DB43949448EF4D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/World.cpp */,
+				ED2F4B03D9E8442787D24904 /* Application.cpp */,
+				CBCD8888AAF54BF6846833D8 /* Camera.cpp */,
+				D4FACECA59A347F99125B4D4 /* Context.cpp */,
+				BB2032A2159542D1B1873C35 /* Controller.cpp */,
+				76A6B14AE0824D16900DB155 /* GLFunctions.cpp */,
+				4CBAFC9D03B945B1856A4CB8 /* ItemStack.cpp */,
+				6A438ADD518F40A889CEA4E4 /* Material.cpp */,
+				EE4DE2742EEA4D1085E6388F /* Main.cpp */,
+				496541F3E6AC4238850DEBE2 /* Frustum.cpp */,
+				6981680AE0C1400D963E06C8 /* GeneralMaths.cpp */,
+				24A36B9BD6CD40909985E5DF /* Matrix.cpp */,
+				83DC7E2C3B594A44965C2DBA /* NoiseGenerator.cpp */,
+				09248958E5814D5F89340D88 /* Ray.cpp */,
+				90E198B8721347B8AEE037FE /* Vector2XZ.cpp */,
+				FC8B4A490E414C9A91EB5C7D /* Model.cpp */,
+				FA33FF5A070C4F40828BF85C /* AABB.cpp */,
+				344590E5AA1F428BB8D3FD25 /* Player.cpp */,
+				4C8DD4B483BE4BFE98DB878A /* ChunkRenderer.cpp */,
+				7974B9A6150A4360894CFBA0 /* FloraRenderer.cpp */,
+				2ACBB36294414F59AB9D526C /* RenderMaster.cpp */,
+				6B203BCA15EC415E9E8B6D1F /* SFMLRenderer.cpp */,
+				4C710DBDE043474D94D8464C /* SkyboxRenderer.cpp */,
+				1A61BB0ED8D04B3EA873E182 /* WaterRenderer.cpp */,
+				D0FE7E865C584F61A00D8733 /* BasicShader.cpp */,
+				9BFDA337893F41549EF0B0A3 /* ChunkShader.cpp */,
+				A8F9FAC87A0E4128B6234278 /* FloraShader.cpp */,
+				361EDC51ED154B4C86708E09 /* Shader.cpp */,
+				4EBE7F510D7840C283C0A971 /* ShaderLoader.cpp */,
+				CA03D2BE118449F8BDA41456 /* SkyboxShader.cpp */,
+				C9F9174DE0894139B66C4769 /* WaterShader.cpp */,
+				3B4244AFE3504488A3C21A3C /* PlayingState.cpp */,
+				654923731EEA4C34B402C661 /* BasicTexture.cpp */,
+				3DB2CBFF6CA04112B873CD03 /* CubeTexture.cpp */,
+				379691E7088A45EEA042718A /* TextureAtlas.cpp */,
+				05CAA12C44484C32A225A0C7 /* ToggleKey.cpp */,
+				7F8F5922C64E459BBF8362FD /* FPSCounter.cpp */,
+				47592D4EBA90472199363B4A /* FileUtil.cpp */,
+				3FD338EE9034404AB5C4DCBD /* Random.cpp */,
+				F48FADF0C25C4631BC13C3E7 /* BlockData.cpp */,
+				5C0CBAE2EA26469085D69DCE /* BlockDatabase.cpp */,
+				577A925F2DD04FC1890B9B27 /* BlockType.cpp */,
+				19961762CAED4C1BB283677A /* ChunkBlock.cpp */,
+				8FDEE5875AAB4F49B9FCC850 /* Chunk.cpp */,
+				56F120D8961C4ABCAC7D46BE /* ChunkManager.cpp */,
+				115FDBF67E6046C687C26AFD /* ChunkMesh.cpp */,
+				42DD097F61784A67B15F2172 /* ChunkMeshBuilder.cpp */,
+				9EC189AE5AFD44EA87D4386A /* ChunkSection.cpp */,
+				FAD09C84120E408DB87FB35F /* PlayerDigEvent.cpp */,
+				2838A5ECC88D4BCB9C75F42C /* Biome.cpp */,
+				350C073AE1AE46B780B4D17D /* DesertBiome.cpp */,
+				35D7320BB113485B8000CD17 /* GrasslandBiome.cpp */,
+				4C66DFC469D34FC99EEF8949 /* LightForest.cpp */,
+				5BA3A05CDFCF4997AB9D60A9 /* OceanBiome.cpp */,
+				14B9731E6F2148D6973ECB4B /* TemperateForestBiome.cpp */,
+				A2B7D35284EC46278D686C1F /* StructureBuilder.cpp */,
+				5908D0BE78EF4F0F9639D5EF /* TreeGenerator.cpp */,
+				8496E1D03A374E2F869E7A33 /* ClassicOverWorldGenerator.cpp */,
+				DF1BF273575A4A89932038EE /* SuperFlatGenerator.cpp */,
+				53C2C1BD79DB43949448EF4D /* World.cpp */,
+				1BDF894A228BD96F00D93A5A /* RenderSettings.h */,
+				1BDF894B228BD9C900D93A5A /* RenderSettings.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -348,7 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				4AAE9A20E4244472A6546D3F /* Source Files */,
-				B530134076C84292953E8CC1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */,
+				B530134076C84292953E8CC1 /* CMakeLists.txt */,
 			);
 			name = glad;
 			sourceTree = "<group>";
@@ -357,7 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				92B9A74F44FB4DB2A13E3081 /* Source Files */,
-				E2B26DDAA49F46E7911EEFD2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */,
+				E2B26DDAA49F46E7911EEFD2 /* CMakeLists.txt */,
 			);
 			name = MCOneWeek;
 			sourceTree = "<group>";
@@ -366,7 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				864DBB4184D845158A3C31DD /* CMake Rules */,
-				C5F03CFADA1A444FB0A701DA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeLists.txt */,
+				C5F03CFADA1A444FB0A701DA /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -404,7 +386,7 @@
 			);
 			name = glad;
 			productName = glad;
-			productReference = 87EB730D312F44C3B457005E /* glad */;
+			productReference = 87EB730D312F44C3B457005E /* libglad.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -417,18 +399,14 @@
 				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = EF25406CEDFA4D209BA4D87D /* Build configuration list for PBXProject "MCOneWeek" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				F989E5564CFC40BB8B3102B6 /* Debug */,
-				33C968AFCE30407395200EE8 /* Release */,
-				94D3977FAD20464280BE74C2 /* MinSizeRel */,
-				6B95F5629E974C109A93A5E1 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 4DBE4C2B590C4A4B813A0079;
-			projectDirPath = .;
+			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5BE04E2692974A4FBF96B30B /* ALL_BUILD */,
@@ -440,36 +418,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		706B0854259D4A468FE160A9 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		8A837D504D9343388B7F9DDB = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		F1A26EBE648B43D6B790907D /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,7 +437,7 @@ exit 0";
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/milantiejiang/XCodeProject/MineCraft/mc -f /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			shellScript = "make -C /Users/milantiejiang/XCodeProject/MineCraft/mc -f /Users/milantiejiang/XCodeProject/MineCraft/mc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -499,65 +447,66 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				249485F64B444BE29F9DDCE0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Application.cpp */,
-				4965FE58165B427B911D9E02 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Camera.cpp */,
-				19E2493AB17F47DAB6BC8C03 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Context.cpp */,
-				ACC3CF9AE7A1402A89B8C7EF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Controller.cpp */,
-				6898028FDA1445E1A181FFD6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/GL/GLFunctions.cpp */,
-				9D6FB941EB694D13BB57F3A4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/ItemStack.cpp */,
-				A54F28D7BE9048D4A15336BB /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Item/Material.cpp */,
-				F1072DCAEC5C4BE58D33829F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Main.cpp */,
-				6C47F03A7CB149F6B7B4840A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Frustum.cpp */,
-				1AE6C4628A7544C5BE318561 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/GeneralMaths.cpp */,
-				73B5A41508734AEAB9E98F28 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Matrix.cpp */,
-				059E451702E44B6ABBAC8FC2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/NoiseGenerator.cpp */,
-				E85A1B4BA5304493B5E6E953 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Ray.cpp */,
-				6EBDC829B49348C7BFBF6EF6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Maths/Vector2XZ.cpp */,
-				E660CFA82D5B46DEB02EC258 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Model.cpp */,
-				A4FAFDEAD9F2447CA7B5A65A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Physics/AABB.cpp */,
-				DAAE504570A74C038ACC18D2 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Player/Player.cpp */,
-				B71A5F16F6964804A29F11F5 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/ChunkRenderer.cpp */,
-				782FB63C20D745669106D69F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/FloraRenderer.cpp */,
-				454055C8DA154FB28D6A8E98 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/RenderMaster.cpp */,
-				26261F8492C24A4EB91A842F /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SFMLRenderer.cpp */,
-				24777779708A43768E1B57DA /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/SkyboxRenderer.cpp */,
-				4FE46D67555B4F6C9CE4005D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Renderer/WaterRenderer.cpp */,
-				7D1290734394467597EF6691 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/BasicShader.cpp */,
-				78846D8E4BBE4132874C78A8 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ChunkShader.cpp */,
-				1B9541C3C43A4F1E91A19563 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/FloraShader.cpp */,
-				CDAEBA5AC0F74AB9A7B06533 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/Shader.cpp */,
-				20EB456A28114EF0B405D6F6 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/ShaderLoader.cpp */,
-				81281C67DAE74FDDA34B1392 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/SkyboxShader.cpp */,
-				45A0434193AA44ACBE95F8B7 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Shaders/WaterShader.cpp */,
-				30F3F2CDE3DD4ECDB00A9680 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/States/PlayingState.cpp */,
-				F149D69A9BC445E5B3B9EDC4 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/BasicTexture.cpp */,
-				92B8A12B6A0D45228CFE3F61 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/CubeTexture.cpp */,
-				17B66B0EB6144BCCB38CCA7C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Texture/TextureAtlas.cpp */,
-				78BB1A2F0F5D48DB8ABD5771 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/ToggleKey.cpp */,
-				37D383390AE842F0BD6F7B19 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FPSCounter.cpp */,
-				F7EE1DBF1CDC4D7CB409FB3D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.cpp */,
-				50C000D289674F198F67F225 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/Random.cpp */,
-				169A6D3E8546432DAFCD06A9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockData.cpp */,
-				517352C898654A66BCD4477D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockDatabase.cpp */,
-				A48D58CFA1964824BF371E15 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/BlockTypes/BlockType.cpp */,
-				1120ADBE23744DF9B71E8495 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Block/ChunkBlock.cpp */,
-				625D6186D9CA40C78903765A /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/Chunk.cpp */,
-				C296E421B23C427FA0AC4559 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkManager.cpp */,
-				40E80AD13EF04F86A4D58D98 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMesh.cpp */,
-				AA49055541DC4CE49E56CE80 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkMeshBuilder.cpp */,
-				09D3DF9217974EE39EDF1595 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Chunk/ChunkSection.cpp */,
-				C861DF53BD76461597C508F0 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Event/PlayerDigEvent.cpp */,
-				55978B6D20264539B1849FBF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/Biome.cpp */,
-				3F8F85D8752F4CF7AB816205 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/DesertBiome.cpp */,
-				3EDF2941746648F8B0271ED1 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/GrasslandBiome.cpp */,
-				E7EF7B56498D4513AFE9C95B /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/LightForest.cpp */,
-				B2870173322B4C3291DEF0EC /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/OceanBiome.cpp */,
-				5C0EEF440F174195A7727366 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Biome/TemperateForestBiome.cpp */,
-				75E738E6608B404D9B3F9DE9 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/StructureBuilder.cpp */,
-				3204EC3429804C4CA2E6DB2C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Structures/TreeGenerator.cpp */,
-				CCFB57EF8AA44370A1173B7D /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/ClassicOverWorldGenerator.cpp */,
-				B52796399A474A4CBA2F91BF /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/Generation/Terrain/SuperFlatGenerator.cpp */,
-				41AFE2538B574608852DD27C /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/World/World.cpp */,
+				249485F64B444BE29F9DDCE0 /* Application.cpp in Sources */,
+				4965FE58165B427B911D9E02 /* Camera.cpp in Sources */,
+				19E2493AB17F47DAB6BC8C03 /* Context.cpp in Sources */,
+				ACC3CF9AE7A1402A89B8C7EF /* Controller.cpp in Sources */,
+				6898028FDA1445E1A181FFD6 /* GLFunctions.cpp in Sources */,
+				9D6FB941EB694D13BB57F3A4 /* ItemStack.cpp in Sources */,
+				A54F28D7BE9048D4A15336BB /* Material.cpp in Sources */,
+				F1072DCAEC5C4BE58D33829F /* Main.cpp in Sources */,
+				6C47F03A7CB149F6B7B4840A /* Frustum.cpp in Sources */,
+				1AE6C4628A7544C5BE318561 /* GeneralMaths.cpp in Sources */,
+				73B5A41508734AEAB9E98F28 /* Matrix.cpp in Sources */,
+				059E451702E44B6ABBAC8FC2 /* NoiseGenerator.cpp in Sources */,
+				E85A1B4BA5304493B5E6E953 /* Ray.cpp in Sources */,
+				6EBDC829B49348C7BFBF6EF6 /* Vector2XZ.cpp in Sources */,
+				E660CFA82D5B46DEB02EC258 /* Model.cpp in Sources */,
+				A4FAFDEAD9F2447CA7B5A65A /* AABB.cpp in Sources */,
+				DAAE504570A74C038ACC18D2 /* Player.cpp in Sources */,
+				B71A5F16F6964804A29F11F5 /* ChunkRenderer.cpp in Sources */,
+				782FB63C20D745669106D69F /* FloraRenderer.cpp in Sources */,
+				454055C8DA154FB28D6A8E98 /* RenderMaster.cpp in Sources */,
+				26261F8492C24A4EB91A842F /* SFMLRenderer.cpp in Sources */,
+				24777779708A43768E1B57DA /* SkyboxRenderer.cpp in Sources */,
+				4FE46D67555B4F6C9CE4005D /* WaterRenderer.cpp in Sources */,
+				7D1290734394467597EF6691 /* BasicShader.cpp in Sources */,
+				78846D8E4BBE4132874C78A8 /* ChunkShader.cpp in Sources */,
+				1B9541C3C43A4F1E91A19563 /* FloraShader.cpp in Sources */,
+				CDAEBA5AC0F74AB9A7B06533 /* Shader.cpp in Sources */,
+				20EB456A28114EF0B405D6F6 /* ShaderLoader.cpp in Sources */,
+				81281C67DAE74FDDA34B1392 /* SkyboxShader.cpp in Sources */,
+				45A0434193AA44ACBE95F8B7 /* WaterShader.cpp in Sources */,
+				30F3F2CDE3DD4ECDB00A9680 /* PlayingState.cpp in Sources */,
+				F149D69A9BC445E5B3B9EDC4 /* BasicTexture.cpp in Sources */,
+				92B8A12B6A0D45228CFE3F61 /* CubeTexture.cpp in Sources */,
+				17B66B0EB6144BCCB38CCA7C /* TextureAtlas.cpp in Sources */,
+				78BB1A2F0F5D48DB8ABD5771 /* ToggleKey.cpp in Sources */,
+				37D383390AE842F0BD6F7B19 /* FPSCounter.cpp in Sources */,
+				F7EE1DBF1CDC4D7CB409FB3D /* FileUtil.cpp in Sources */,
+				50C000D289674F198F67F225 /* Random.cpp in Sources */,
+				169A6D3E8546432DAFCD06A9 /* BlockData.cpp in Sources */,
+				517352C898654A66BCD4477D /* BlockDatabase.cpp in Sources */,
+				1BDF894C228BD9C900D93A5A /* RenderSettings.cpp in Sources */,
+				A48D58CFA1964824BF371E15 /* BlockType.cpp in Sources */,
+				1120ADBE23744DF9B71E8495 /* ChunkBlock.cpp in Sources */,
+				625D6186D9CA40C78903765A /* Chunk.cpp in Sources */,
+				C296E421B23C427FA0AC4559 /* ChunkManager.cpp in Sources */,
+				40E80AD13EF04F86A4D58D98 /* ChunkMesh.cpp in Sources */,
+				AA49055541DC4CE49E56CE80 /* ChunkMeshBuilder.cpp in Sources */,
+				09D3DF9217974EE39EDF1595 /* ChunkSection.cpp in Sources */,
+				C861DF53BD76461597C508F0 /* PlayerDigEvent.cpp in Sources */,
+				55978B6D20264539B1849FBF /* Biome.cpp in Sources */,
+				3F8F85D8752F4CF7AB816205 /* DesertBiome.cpp in Sources */,
+				3EDF2941746648F8B0271ED1 /* GrasslandBiome.cpp in Sources */,
+				E7EF7B56498D4513AFE9C95B /* LightForest.cpp in Sources */,
+				B2870173322B4C3291DEF0EC /* OceanBiome.cpp in Sources */,
+				5C0EEF440F174195A7727366 /* TemperateForestBiome.cpp in Sources */,
+				75E738E6608B404D9B3F9DE9 /* StructureBuilder.cpp in Sources */,
+				3204EC3429804C4CA2E6DB2C /* TreeGenerator.cpp in Sources */,
+				CCFB57EF8AA44370A1173B7D /* ClassicOverWorldGenerator.cpp in Sources */,
+				B52796399A474A4CBA2F91BF /* SuperFlatGenerator.cpp in Sources */,
+				41AFE2538B574608852DD27C /* World.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +514,7 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E72413252D2C4FD78EF38311 /* /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad/glad.c */,
+				E72413252D2C4FD78EF38311 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,19 +563,37 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/opt/local/include,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/opt/local/include,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/milantiejiang/XCodeProject/MineCraft/mc/Debug/libglad.a  /opt/local/lib/libsfml-graphics.dylib /opt/local/lib/libsfml-network.dylib /opt/local/lib/libsfml-audio.dylib /opt/local/lib/libsfml-window.dylib /opt/local/lib/libsfml-system.dylib";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Debug/libglad.a,
+					"/opt/local/lib/libsfml-graphics.dylib",
+					"/opt/local/lib/libsfml-network.dylib",
+					"/opt/local/lib/libsfml-audio.dylib",
+					"/opt/local/lib/libsfml-window.dylib",
+					"/opt/local/lib/libsfml-system.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MCOneWeek;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -659,19 +626,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/opt/local/include,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/opt/local/include,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/milantiejiang/XCodeProject/MineCraft/mc/Release/libglad.a  /opt/local/lib/libsfml-graphics.dylib /opt/local/lib/libsfml-network.dylib /opt/local/lib/libsfml-audio.dylib /opt/local/lib/libsfml-window.dylib /opt/local/lib/libsfml-system.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Release/libglad.a,
+					"/opt/local/lib/libsfml-graphics.dylib",
+					"/opt/local/lib/libsfml-network.dylib",
+					"/opt/local/lib/libsfml-audio.dylib",
+					"/opt/local/lib/libsfml-window.dylib",
+					"/opt/local/lib/libsfml-system.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MCOneWeek;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -684,9 +672,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "       -DNDEBUG  ";
@@ -696,7 +687,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -707,7 +703,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -716,7 +712,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -729,9 +730,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG  ";
@@ -741,7 +745,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -752,7 +761,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -761,7 +770,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -774,9 +788,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    ";
@@ -786,7 +803,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -797,7 +819,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -806,7 +828,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -819,19 +846,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/opt/local/include,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/opt/local/include,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/milantiejiang/XCodeProject/MineCraft/mc/MinSizeRel/libglad.a  /opt/local/lib/libsfml-graphics.dylib /opt/local/lib/libsfml-network.dylib /opt/local/lib/libsfml-audio.dylib /opt/local/lib/libsfml-window.dylib /opt/local/lib/libsfml-system.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/MinSizeRel/libglad.a,
+					"/opt/local/lib/libsfml-graphics.dylib",
+					"/opt/local/lib/libsfml-network.dylib",
+					"/opt/local/lib/libsfml-audio.dylib",
+					"/opt/local/lib/libsfml-window.dylib",
+					"/opt/local/lib/libsfml-system.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MCOneWeek;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -842,7 +890,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -851,7 +899,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -862,7 +915,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -871,7 +924,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -892,7 +950,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -901,7 +959,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -914,9 +977,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = "    -DNDEBUG  ";
@@ -926,7 +992,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -939,19 +1010,40 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,/opt/local/include,/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad);
+				HEADER_SEARCH_PATHS = (
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/src/Dependencies,
+					/opt/local/include,
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/Source/glad,
+				);
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++1z'  ";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/milantiejiang/XCodeProject/MineCraft/mc/RelWithDebInfo/libglad.a  /opt/local/lib/libsfml-graphics.dylib /opt/local/lib/libsfml-network.dylib /opt/local/lib/libsfml-audio.dylib /opt/local/lib/libsfml-window.dylib /opt/local/lib/libsfml-system.dylib";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/milantiejiang/XCodeProject/MineCraft/mc/RelWithDebInfo/libglad.a,
+					"/opt/local/lib/libsfml-graphics.dylib",
+					"/opt/local/lib/libsfml-network.dylib",
+					"/opt/local/lib/libsfml-audio.dylib",
+					"/opt/local/lib/libsfml-window.dylib",
+					"/opt/local/lib/libsfml-system.dylib",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = MCOneWeek;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -962,7 +1054,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -971,7 +1063,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -982,7 +1079,7 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
@@ -991,7 +1088,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/milantiejiang/XCodeProject/MineCraft/mc;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};

@@ -1,5 +1,5 @@
 #include "BasicTexture.h"
-
+#include "../Util/FileUtil.h"
 
 BasicTexture::BasicTexture(const std::string& file)
 {
@@ -26,7 +26,8 @@ void BasicTexture::loadFromImage(const sf::Image& i)
 void BasicTexture::loadFromFile(const std::string& file)
 {
     sf::Image i;
-    if(!i.loadFromFile("Res/Textures/" + file + ".png"))
+    std::string path=getExeDir()+"/";
+    if(!i.loadFromFile(path+"Res/Textures/" + file + ".png"))
     {
         throw std::runtime_error("Unable to load BasicTexture: " + file);
     }

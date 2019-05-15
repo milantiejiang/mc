@@ -5,8 +5,7 @@
 unsigned int g_X;
 unsigned int g_Y;
 
-Context::Context(const Config& config)
-{
+Context::Context(const Config& config){
     sf::ContextSettings settings;
     settings.antialiasingLevel = 0;
     settings.majorVersion = 3;

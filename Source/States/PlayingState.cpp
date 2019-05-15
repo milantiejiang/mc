@@ -7,15 +7,15 @@
 #include "../World/Event/PlayerDigEvent.h"
 
 #include <iostream>
-
+#include "../Util/FileUtil.h"
 
 StatePlaying::StatePlaying(Application& app, const Config& config)
 :   StateBase   (app)
 ,   m_world     (app.getCamera(), config, m_player)
 {
     app.getCamera().hookEntity(m_player);
-
-    m_chTexture.loadFromFile("Res/Textures/ch.png");
+    std::string path=getExeDir()+"/";
+    m_chTexture.loadFromFile(path+"Res/Textures/ch.png");
     m_crosshair.setTexture(&m_chTexture);
     m_crosshair.setSize({21, 21});
     m_crosshair.setOrigin(m_crosshair.getGlobalBounds().width / 2,
@@ -24,8 +24,9 @@ StatePlaying::StatePlaying(Application& app, const Config& config)
                             app.getWindow().getSize().y / 2);
 }
 
-void StatePlaying::handleEvent(sf::Event e)
-{ }
+void StatePlaying::handleEvent(sf::Event e){
+    
+}
 
 void StatePlaying::handleInput()
 {

@@ -331,4 +331,5 @@ dependencies: \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/../Renderer/../Shaders/WaterShader.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/../Renderer/FloraRenderer.h \
   /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/../Renderer/../Shaders/FloraShader.h \
-  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/../Renderer/../Config.h
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/../Renderer/../Config.h \
+  /Users/milantiejiang/XCodeProject/MineCraft/mc/Source/Util/FileUtil.h
